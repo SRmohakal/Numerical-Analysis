@@ -10,10 +10,10 @@ In practical computation (whether on paper or using a computer), errors often oc
 Errors in numerical calculations are **the differences between the true value** and **the approximate (calculated) value**.
 
 ### Types of Errors:
-- **Absolute Error**  
-  \[
-  \text{Absolute Error} = |\text{True Value} - \text{Approximate Value}|
-  \]
+- **Absolute Error**
+  ```
+  Absolute Error = |True Value - Approximate Value|
+  ```
   It measures the actual difference between the true and computed value.
 
 - **Relative Error**  
