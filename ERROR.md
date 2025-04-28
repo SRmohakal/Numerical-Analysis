@@ -17,15 +17,17 @@ Errors in numerical calculations are **the differences between the true value** 
   It measures the actual difference between the true and computed value.
 
 - **Relative Error**  
-  \[
-  \text{Relative Error} = \frac{\text{Absolute Error}}{|\text{True Value}|}
-  \]
+  ```
+  Relative Error = Absolute Error/True Value
+  ```
   It shows how large the error is relative to the true value — important when the value itself is very large or very small.
 
-- **Percentage Error**  
+- **Percentage Error**
+  ```
   \[
   \text{Percentage Error} = \text{Relative Error} \times 100\%
   \]
+  ```
   It expresses the error as a percentage.
 
 ---
