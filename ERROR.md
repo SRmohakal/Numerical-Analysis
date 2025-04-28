@@ -24,9 +24,7 @@ Errors in numerical calculations are **the differences between the true value** 
 
 - **Percentage Error**
   ```
-  \[
-  \text{Percentage Error} = \text{Relative Error} \times 100\%
-  \]
+  Percentage Error = Relative Error X 100\%
   ```
   It expresses the error as a percentage.
 
@@ -35,7 +33,7 @@ Errors in numerical calculations are **the differences between the true value** 
 ### Sources of Errors:
 Errors can come from several causes:
 - **Round-off Errors**:  
-  Due to the limitation of storing numbers in finite memory (example: storing \( \pi \) as 3.1416 instead of \( \pi = 3.1415926535...\)).
+  Due to the limitation of storing numbers in finite memory (example: storing pi as 3.1416 instead of ( pi = 3.1415926535...)).
   
 - **Truncation Errors**:  
   Arise when an infinite process (like a Taylor series or an iterative method) is cut off after a finite number of steps.
@@ -58,7 +56,7 @@ When we perform a **series of operations** (like addition, subtraction, multipli
   Example:  
   If  
   \[
-  x = x_{\text{true}} \pm \Delta x, \quad y = y_{\text{true}} \pm \Delta y
+  x = x_{true}\pm \Delta x, \quad y = y_{\text{true}} \pm \Delta y
   \]
   Then  
   \[
