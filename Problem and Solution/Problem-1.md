@@ -22,10 +22,7 @@ Then, **using the polynomial**, **estimate the performance time for an input siz
 
 The **divided differences** are calculated as:
 
-\[
 f[x_i, x_{i+1}] = \frac{f(x_{i+1}) - f(x_i)}{x_{i+1} - x_i}
-\]
-\[
 f[x_i, x_{i+1}, x_{i+2}] = \frac{f[x_{i+1}, x_{i+2}] - f[x_i, x_{i+1}]}{x_{i+2} - x_i}
 \]
 and so on.
@@ -137,3 +134,25 @@ Thus,
 \]
 
 ---
+
+# **Final Answer:**
+✅ Estimated performance time for input size \(6\) is approximately **368 milliseconds**.
+
+---
+
+# **Quick Summary Table of Calculations:**
+
+| Calculation | Result |
+|-------------|--------|
+| \(f[x_0,x_1]\) | 47.5 |
+| \(f[x_1,x_2]\) | 213.33 |
+| \(f[x_2,x_3]\) | 737 |
+| \(f[x_0,x_1,x_2]\) | 33.166 |
+| \(f[x_1,x_2,x_3]\) | 130.917 |
+| \(f[x_0,x_1,x_2,x_3]\) | 16.2918 |
+| Final \(P(6)\) | 368 ms |
+
+---
+
+Would you also like me to draw the full divided difference **table neatly** and show the **polynomial expanded** step-by-step? (It will look nice if you're writing this for an exam!)  
+**Should I proceed?** 🚀
